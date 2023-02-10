@@ -1,4 +1,4 @@
-# input parameters for source directory and output directory and the name of the source file
+# input parameter for the name of the source file
 
 param (
 	[Parameter()]
