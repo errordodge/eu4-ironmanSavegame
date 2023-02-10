@@ -8,7 +8,7 @@ param (
 
 $ErrorActionPreference = 'Stop'
 
-$srcFile = "${Home}\Documents\Paradox Interactive\Europa Universalis IV\save games\" + $fileName
+$srcFile = "${Home}\Documents\Paradox Interactive\Europa Universalis IV\save games\" + $fileName + ".eu4"
 $destFile = ("${Home}\Documents\Paradox Interactive\Europa Universalis IV\save games\ironman\" + $fileName + ' ')
 
 # function to get time stamp
